@@ -16,7 +16,7 @@ class App extends Component {
       <div>
         <Switch>
           <Route exact path="/" component={loginPage} />
-          <Route exact path="/authenticated" component={MainCookieContainer} />
+          <Route exact path="/main" component={MainCookieContainer} />
           {/* <Route exact path="/" component={MainCookieContainer} /> */}
           <Route exact path="/login" component={loginPage} />
         </Switch>
