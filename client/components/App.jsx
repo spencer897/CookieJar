@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import { Switch, Route } from 'react-router-dom';
 import MainCookieContainer from './MainCookieContainer';
 import loginPage from './loginPage';
+import 'semantic-ui-css/semantic.min.css';
 
 class App extends Component {
   constructor(props) {

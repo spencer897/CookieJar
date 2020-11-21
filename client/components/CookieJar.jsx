@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import { Container } from 'semantic-ui-react';
 import Cookie from './Cookie'
 
 class CookieJar extends Component {
@@ -13,12 +14,14 @@ class CookieJar extends Component {
     render() {
         const rawCookieArray = document.cookie.split('; ')
         const cookies = [];
-        for (let i=0; i < rawCookieArray.length; i++) {
+        for (let i = 0; i < rawCookieArray.length; i++) {
             cookies.push(<Cookie key={i} cookie={rawCookieArray[i]} />);
         }
         return (
             <div>
-                {cookies}
+                <Container>
+                    {cookies}
+                </Container>
             </div>
         );
     }

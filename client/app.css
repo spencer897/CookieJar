@@ -1,0 +1,28 @@
+#login {
+  border-radius: 18px;
+  box-shadow: 0 10px 20px;
+  position: relative;
+  margin: 20px;
+  top: 50%;
+  border-color: black;
+  
+}
+
+#cookie {
+  border-radius: 50%;
+  box-shadow: 0 10px 20px;
+  position: relative;
+  margin: 20px;
+  top: -10px;
+  border-color: black;
+  
+}
+#cntr {
+  border-radius: 18px;
+    box-shadow: 0 10px 20px;
+    position: relative;
+    margin: 20px;
+    top:;
+    border-color: black;
+}
+
