@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Container } from 'semantic-ui-react';
-import Cookie from './Cookie'
+import Cookie from './Cookie';
+import '../app.css';
 
 class CookieJar extends Component {
 
@@ -19,7 +20,7 @@ class CookieJar extends Component {
         }
         return (
             <div>
-                <Container>
+                <Container >
                     {cookies}
                 </Container>
             </div>

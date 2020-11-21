@@ -42,8 +42,8 @@ function LoginPage() {
   };
 
   return (
-    <Grid id='cntr' verticalAlign='middle' centered columns={2} >
-      <Grid.Column id="login">
+    <Grid verticalAlign='middle' centered columns={2}>
+      < Grid.Column id="login" >
         <div className="App" id="cookie">
           <Segment>
             <Form>
@@ -84,8 +84,8 @@ function LoginPage() {
             </Form>
           </Segment>
         </div>
-      </Grid.Column>
-    </ Grid>
+      </Grid.Column >
+    </ Grid >
   );
 }
 
